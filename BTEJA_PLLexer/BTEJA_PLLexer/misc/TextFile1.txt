@@ -1,0 +1,30 @@
+﻿program = block;
+block = {statement};
+statement = block | ifStatement | whileStatement | expression | functionDef | functionCall;
+statementNoDef = block | ifStatement | whileStatement | expression | functionCall;
+ifStatement = if '(' ifExpression ')' '{' statementNoDef '}' [else ('{' statementNoDef '}' | ifStatement)];
+whileStatement = while '(' whileExpression ')' '{' statementNoDef '}';
+ifExpression = ((identifier | double | integer) comparison (identifier | double | integer));
+whileExpression = ifExpression;
+expression = (variableDef | variableEq | ioFunction | functionCall | mathFunction) ';';
+functionDef = 'function' identifier '(' [identifier ':' type {',' identifier ':' type}] ')' ':' type '{' functionBody '}';
+functionBody = {ifStatement | whileStatement | expression} 'return' (identifier | double | integer | string | functionCall) ';';
+functionCall = identifier '(' [identifier] ')';
+
+
+ioFunction = ('print' '(' (identifier | mathFunction | '"' string '"') ')' ';' | 'scan' '(' identifier ')' ';');
+mathFunction = mathExpression | (mathExpression ('+' | '-' | '*' | '/') mathExpression)
+mathExpression = (identifier | double | integer) ('+' | '-' | '*' | '/') (identifier | double | integer) {('+' | '-' | '*' | '/') (identifier | double | integer)};
+variableDef = 'var' identifier ':' type ['=' (double | integer | string | identifier | mathFunction)];
+variableEq = identifier '=' (double | integer | string | identifier | mathFunction);
+
+
+identifier = character {character | number};
+type = 'string' | 'double' | 'integer';
+comparison = '==' | '!=' | '<=' | '>=' | '<' | '>' ;
+string = '"' {character | digit | ' '} '"';
+double = [-] number '.' number;
+integer = [-] number;
+number = digit {digit};
+digit = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+character = a-z | A-Z;

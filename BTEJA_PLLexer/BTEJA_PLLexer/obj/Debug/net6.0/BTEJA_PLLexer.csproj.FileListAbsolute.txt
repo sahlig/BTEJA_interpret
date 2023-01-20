@@ -1,0 +1,15 @@
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\bin\Debug\net6.0\BTEJA_PLLexer.exe
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\bin\Debug\net6.0\BTEJA_PLLexer.deps.json
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\bin\Debug\net6.0\BTEJA_PLLexer.runtimeconfig.json
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\bin\Debug\net6.0\BTEJA_PLLexer.dll
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\bin\Debug\net6.0\BTEJA_PLLexer.pdb
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\BTEJA_PLLexer.csproj.AssemblyReference.cache
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\BTEJA_PLLexer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\BTEJA_PLLexer.AssemblyInfoInputs.cache
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\BTEJA_PLLexer.AssemblyInfo.cs
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\BTEJA_PLLexer.csproj.CoreCompileInputs.cache
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\BTEJA_PLLexer.dll
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\refint\BTEJA_PLLexer.dll
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\BTEJA_PLLexer.pdb
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\BTEJA_PLLexer.genruntimeconfig.cache
+C:\Users\Radek\source\repos\BTEJA_PLLexer\BTEJA_PLLexer\obj\Debug\net6.0\ref\BTEJA_PLLexer.dll
